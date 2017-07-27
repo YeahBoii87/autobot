@@ -1,0 +1,6 @@
+<launch>
+	<include file="$(find jet_bringup)/launch/jet_real.launch" />
+	<node pkg="battlebot" type="battlebot_node" name="battlebot_node" />
+	<node pkg="autobot" type="autobot_control" name="autobot_control" />
+
+</launch>
